@@ -15,6 +15,6 @@ zuul:
       strip-prefix: true
       serviceId: flashcard-service
     user-service:
-      path: /users/*
+      path: /users/**
       strip-prefix: true
       serviceId: user-service
